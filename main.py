@@ -55,7 +55,11 @@ def handle_commands(cmd, messages):
 
 def generate_response(client, messages):
     try:
-        res = client.chat.completions.create(messages=messages, model="llama-3.3-70b-versatile", temperature=0.7)
+        res = client.chat.completions.create(
+            messages=messages, 
+            model="llama-3.3-70b-versatile", 
+            temperature=0.7
+            )
         return res.choices[0].message.content
     except Exception as e:
         return f"[API ERROR] {e}"
