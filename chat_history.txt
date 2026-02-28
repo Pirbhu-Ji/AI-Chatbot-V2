@@ -1,0 +1,14 @@
+You: hi
+
+AI: It's nice to meet you. Is there something I can help you with or would you like to chat?
+
+You: regarding project
+
+AI: I'd be happy to help with your project. Can you please provide more details about the project, such as:
+
+* What type of project is it (e.g. work, school, personal)?
+* What is the goal or objective of the project?
+* What specific areas of the project do you need help with?
+
+This will help me better understand your needs and provide more effective assistance.
+
